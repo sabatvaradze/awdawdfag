@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#188B9A">
+
+    <TextView
+        android:text="Tic Tac Toe"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="80dp" />
+
+    <TextView
+        android:id="@+id/pirveli"
+        android:layout_marginBottom="18dp"
+        android:text="Player1: 0"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+    <TextView
+        android:id="@+id/meore"
+        android:text="Player2: 0"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="40dp" />
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/gilaki1"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:id="@+id/gilaki2"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:id="@+id/gilaki3"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/gilaki4"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:id="@+id/gilaki5"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:id="@+id/gilaki6"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/gilaki7"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:id="@+id/gilaki8"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:id="@+id/gilaki9"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/resGilaki"
+            android:text="Reset"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+
+
+
+</TableLayout>
